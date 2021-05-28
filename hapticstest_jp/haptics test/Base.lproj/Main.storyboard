@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="haptics_test" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="33" translatesAutoresizingMaskIntoConstraints="NO" id="8Ue-ZM-M4N" userLabel="Descending BUttons">
+                                <rect key="frame" x="250" y="277" width="140" height="432"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="veW-sf-AVQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="140" height="60"/>
+                                        <color key="backgroundColor" red="0.27368677093646598" green="0.59929855503635099" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="140" id="ERM-uG-jGW"/>
+                                            <constraint firstAttribute="height" constant="60" id="btz-4G-7px"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                        <state key="normal" title="Descending 1">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="descending1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eGA-i7-LFC"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Psg-Fz-xtc">
+                                        <rect key="frame" x="0.0" y="93" width="140" height="60"/>
+                                        <color key="backgroundColor" red="0.27368677093646598" green="0.59929855503635099" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="n11-f4-ucg"/>
+                                            <constraint firstAttribute="width" constant="140" id="vbW-YT-AGl"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                        <state key="normal" title="Descending 2">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="descending2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g1s-l9-MZ5"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9p3-jk-tB7">
+                                        <rect key="frame" x="0.0" y="186" width="140" height="60"/>
+                                        <color key="backgroundColor" red="0.27368677093646598" green="0.59929855503635099" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="140" id="Dvp-3b-6H7"/>
+                                            <constraint firstAttribute="height" constant="60" id="cCq-6N-dOu"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                        <state key="normal" title="Descending 3">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="descending3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ITW-Do-mXM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g4y-GP-cLC">
+                                        <rect key="frame" x="0.0" y="279" width="140" height="60"/>
+                                        <color key="backgroundColor" red="0.27368677093646598" green="0.59929855503635099" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="3Rb-ae-eRh"/>
+                                            <constraint firstAttribute="width" constant="140" id="dyM-1J-MwY"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                        <state key="normal" title="Descending 4">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="descending4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lla-zy-I7J"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OjH-ae-Nhd">
+                                        <rect key="frame" x="0.0" y="372" width="140" height="60"/>
+                                        <color key="backgroundColor" red="0.27368677093646598" green="0.59929855503635099" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="lVr-is-t4C"/>
+                                            <constraint firstAttribute="width" constant="140" id="lut-aM-2fP"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                        <state key="normal" title="Descending 5">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="descinding5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jdx-ql-eqc"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="veW-sf-AVQ" firstAttribute="top" secondItem="8Ue-ZM-M4N" secondAttribute="top" constant="16" id="Mg9-yx-EKq"/>
+                                    <constraint firstAttribute="bottom" secondItem="OjH-ae-Nhd" secondAttribute="bottom" constant="16" id="XXB-94-MJM"/>
+                                    <constraint firstItem="Psg-Fz-xtc" firstAttribute="top" secondItem="veW-sf-AVQ" secondAttribute="bottom" constant="16" id="YIJ-Ib-TYL"/>
+                                    <constraint firstItem="OjH-ae-Nhd" firstAttribute="top" secondItem="g4y-GP-cLC" secondAttribute="bottom" constant="16" id="ZcL-oD-I9c"/>
+                                    <constraint firstItem="9p3-jk-tB7" firstAttribute="top" secondItem="Psg-Fz-xtc" secondAttribute="bottom" constant="16" id="gp1-nl-Kpr"/>
+                                    <constraint firstItem="g4y-GP-cLC" firstAttribute="top" secondItem="9p3-jk-tB7" secondAttribute="bottom" constant="16" id="weY-n6-5y5"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="33" translatesAutoresizingMaskIntoConstraints="NO" id="qEw-SY-hD0" userLabel="Ascending Buttons">
+                                <rect key="frame" x="24" y="277" width="140" height="432"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WK9-1i-2HD">
+                                        <rect key="frame" x="0.0" y="0.0" width="140" height="60"/>
+                                        <color key="backgroundColor" red="0.64987071470000002" green="0.77503643129999999" blue="0.55063034580000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="140" id="84g-BU-of3"/>
+                                            <constraint firstAttribute="height" constant="60" id="Q9F-X5-fbO"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <state key="normal" title="Ascending 1">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="ascending1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m6T-jm-6n8"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wDq-4c-TTF">
+                                        <rect key="frame" x="0.0" y="93" width="140" height="60"/>
+                                        <color key="backgroundColor" red="0.64987071470000002" green="0.77503643129999999" blue="0.55063034580000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="0ED-vo-k1H"/>
+                                            <constraint firstAttribute="width" constant="140" id="i4V-FV-e9c"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <state key="normal" title="Ascending 2">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="ascending2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dhu-fx-8pd"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="coh-mk-2Se">
+                                        <rect key="frame" x="0.0" y="186" width="140" height="60"/>
+                                        <color key="backgroundColor" red="0.64987071470000002" green="0.77503643129999999" blue="0.55063034580000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="fFB-Ni-Ga7"/>
+                                            <constraint firstAttribute="width" constant="140" id="lJT-61-dgo"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <state key="normal" title="Ascending 3">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="ascending3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iaz-E1-V9P"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AEe-od-qkt">
+                                        <rect key="frame" x="0.0" y="279" width="140" height="60"/>
+                                        <color key="backgroundColor" red="0.64987071470000002" green="0.77503643129999999" blue="0.55063034580000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="LSN-Mk-Yzn"/>
+                                            <constraint firstAttribute="width" constant="140" id="m3r-1D-Oca"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <state key="normal" title="Ascending 4">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="ascending4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dc8-Ct-JeI"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kcj-IH-e4W">
+                                        <rect key="frame" x="0.0" y="372" width="140" height="60"/>
+                                        <color key="backgroundColor" red="0.64987071470000002" green="0.77503643129999999" blue="0.55063034580000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="140" id="lax-Ym-so2"/>
+                                            <constraint firstAttribute="height" constant="60" id="zOQ-IS-9f3"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <state key="normal" title="Ascending 5">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="ascending5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hol-wa-gPN"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="1" id="Mdx-Th-gQq" userLabel="System Buttons">
+                                <rect key="frame" x="0.0" y="84" width="414" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="OzG-C0-Mo2">
+                                        <rect key="frame" x="0.0" y="0.0" width="113" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.58075578018158525" green="0.77503643134715028" blue="0.50309405035164734" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="System Success">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="button1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H91-V5-gT8"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="dk4-lo-zJ9">
+                                        <rect key="frame" x="163" y="0.0" width="112" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.66405658061812534" green="0.64489699805331391" blue="0.85004452720207258" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="System Warning">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="button2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oqh-cY-LoB"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="60i-mM-eHv">
+                                        <rect key="frame" x="325" y="0.0" width="89" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.77503643134715028" green="0.52302281953334828" blue="0.43692166750491285" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="System Error">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="button3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rtU-6a-cpA"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Mdx-Th-gQq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Bws-zc-aj1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8Ue-ZM-M4N" secondAttribute="trailing" constant="24" id="GzM-k5-Cgv"/>
+                            <constraint firstAttribute="trailing" secondItem="Mdx-Th-gQq" secondAttribute="trailing" constant="16" id="Idh-rY-YF8"/>
+                            <constraint firstItem="8Ue-ZM-M4N" firstAttribute="top" secondItem="Mdx-Th-gQq" secondAttribute="bottom" constant="143" id="TuB-an-KLF"/>
+                            <constraint firstItem="Mdx-Th-gQq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="VKj-UZ-y0w"/>
+                            <constraint firstItem="qEw-SY-hD0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="bkc-6g-57Q"/>
+                            <constraint firstItem="qEw-SY-hD0" firstAttribute="top" secondItem="Mdx-Th-gQq" secondAttribute="bottom" constant="143" id="gJK-lO-8O9"/>
+                            <constraint firstItem="Mdx-Th-gQq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="wYV-1r-2Pe"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="93.75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
